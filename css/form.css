@@ -1,0 +1,77 @@
+.form__labelText {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.form__amount {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+    margin: 25px 0 0 0;
+}
+
+.form__currency {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+    margin: 25px 0 0 0;
+
+}
+
+.form__button {
+    border: none;
+    background-color: hsl(209, 96%, 40%);
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 45px;
+}
+
+.form__button:hover {
+    background-color: hsl(209, 96%, 60%);
+}
+
+.form__button:active {
+    background-color: hsl(209, 96%, 75%);
+}
+
+.form__fieldset {
+    border: 1px solid hsla(209, 97%, 74%, 0.998);
+    box-shadow: 5px -5px 32px 0px #8BC4ED;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.form__fieldset:required {
+    border-color: black;
+}
+
+.form__legend {
+    background-color: hsl(209, 96%, 40%);
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form__result {
+    text-align: center;
+    border: 1px solid hsl(209, 96%, 60%);
+    background-color: hsl(209, 96%, 60%);
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+    margin: 40px;
+}
+
+.form {
+    background-color: hsl(211, 70%, 90%);
+}

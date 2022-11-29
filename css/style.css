@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+    background-image: url("../image/backrground.Dolar.jpg");
+}
+

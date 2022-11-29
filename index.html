@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walutowy</title>
+    <link rel="icon" href="image/icona_Natalia Romaszko.png">
+    <meta property="og.image" content="image/KALKULATOR WALUT.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body class="body">
+    <form class="form js-form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Kalkulator walut</legend>
+            <p>
+                <label>
+                    <span class="form__labelText">Podaj kwotę*:</span>
+                    <input class="form__amount js-amount" name="PLN" placeholder="PLN - złotówka Polska" type="number"
+                        autofocus min="0.01" step="any" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span class="form__labelText">Wybierz walutę:</span>
+                    <select class="form__currency js-currency" name="currency">
+                        <option value="EURO" selected>Euro - Unia Europejska</option>
+                        <option value="USD">USD - Dolar amerykański</option>
+                        <option value="GBP">GBP - Funt szterling</option>
+                        <option value="CHF">CHF - Frank szwajcarski</option>
+                    </select>
+                </label>
+            </p>
+
+        </fieldset>
+
+        <p>
+
+            <button class="form__button">Przelicz</button>
+
+        </p>
+
+        <p class="form__result">Przeliczona kwota wynosi: <strong class="js-result">N/A</strong></p>
+
+    </form>
+    <p>*Pole wymagane</p>
+</body>
+
+</html>
